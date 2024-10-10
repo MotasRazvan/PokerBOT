@@ -1,0 +1,28 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directory
+myvenv/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore IDE/editor-specific files
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS-generated files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+ehthumbs.db    # Windows
+Desktop.ini    # Windows
+
+# Ignore any other files or folders you wish to exclude
+# Example: ignore specific images or output files
+# output/
+# temp/
